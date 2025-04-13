@@ -1,5 +1,7 @@
 import mysql from 'mysql2';
-require('dotenv').config();
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const db = mysql.createConnection({
   host: 'localhost',
