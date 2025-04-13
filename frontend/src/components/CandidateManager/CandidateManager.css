@@ -1,0 +1,110 @@
+/* Container for the Candidate Manager */
+.manager-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+  }
+  
+  /* Header styles */
+  .manager-container h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input field for search */
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Filter Bar styling */
+  .filter-bar {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+  }
+  
+  .filter-bar select, .filter-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .filter-bar input {
+    width: 200px;
+  }
+  
+  /* Pagination controls */
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .pagination button {
+    padding: 8px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  /* Table Styling */
+  .candidate-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .candidate-table th, .candidate-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .candidate-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .candidate-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .candidate-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .candidate-table button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .candidate-table button:hover {
+    background-color: #c0392b;
+  }
+  
